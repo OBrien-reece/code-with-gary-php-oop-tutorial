@@ -16,7 +16,12 @@ class Playlist {
 $octopusGarden = new Song();
 $octopusGarden->songId = 1;
 $octopusGarden->songTitle = "Octopus Garden";
-// var_dump($octopusGarden);
+
+$snykz = new Song();
+$snykz->songId = 2;
+$snykz->songTitle = "Brocken Man";
+var_dump($octopusGarden);
+var_dump($snykz);
 
 $playlist = new Playlist();
 $playlist->name = "Rock";
@@ -48,4 +53,4 @@ $myPlaylist = new MyPlaylist();
 $myPlaylist->name;
 $myPlaylist->songs;
 $myPlaylist->addSong($theSing);
-var_dump($myPlaylist->songs);
+// var_dump($myPlaylist->songs);
