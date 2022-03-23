@@ -12,7 +12,7 @@ require('connection.php');
 
 $connection1 = new Connection();
 $connection1->setConnectionID('127.0.0.1');
-print $connection1;
+print $connection1; 
 // $connection2 = new Connection();
 // unset($connection2);
 
