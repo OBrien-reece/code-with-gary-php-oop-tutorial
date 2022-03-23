@@ -17,6 +17,10 @@ $checkingaccount->deposit(20);
 $checkingaccount->withdraw(10);
 
 $checkingaccount->transfer(40);
+
+$premiumcheckingaccount = new PremiumCheckingAccount();
+
+print_r("Minimum Balalnce ". $premiumcheckingaccount->minimumBalance);
 ?>
 
 </body>
